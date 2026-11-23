@@ -1,0 +1,15 @@
+# Lokale Werkzeug-Konfiguration (enthält rechnerspezifische Pfade)
+.claude/
+briefing-deskilling-serious-game.md
+
+# Node (falls später Abhängigkeiten dazukommen)
+node_modules/
+npm-debug.log*
+
+# Betriebssystem / Editoren
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp

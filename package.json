@@ -1,0 +1,11 @@
+{
+  "name": "deskilling-pruefstation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serious-Game-Prototyp „Prüfstation“ zu De-Skilling durch KI (Moodle-iframe)",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test tests/",
+    "simulate": "node tests/simulate.mjs"
+  }
+}

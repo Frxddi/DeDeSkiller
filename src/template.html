@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prüfstation</title>
+<style>
+/*__CSS__*/
+</style>
+</head>
+<body>
+<!-- Gemeinsame SVG-Muster: Farben zusätzlich per Muster unterscheidbar (Farbsehschwäche) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="pat-red" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+      <rect width="4" height="10" fill="rgba(0,0,0,.28)"></rect>
+    </pattern>
+    <pattern id="pat-blue" patternUnits="userSpaceOnUse" width="10" height="10">
+      <circle cx="5" cy="5" r="1.9" fill="rgba(255,255,255,.38)"></circle>
+    </pattern>
+    <pattern id="pat-green" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect y="0" width="10" height="3" fill="rgba(0,0,0,.22)"></rect>
+    </pattern>
+    <pattern id="pat-yellow" patternUnits="userSpaceOnUse" width="12" height="12">
+      <path d="M0 6 H12 M6 0 V12" stroke="rgba(0,0,0,.16)" stroke-width="2"></path>
+    </pattern>
+  </defs>
+</svg>
+<div id="app">
+  <header class="topbar">
+    <span class="brand" id="brand"></span>
+    <span class="lvl" id="lvl"></span>
+    <span class="score" aria-live="polite"><small id="scoreLabel"></small><span id="score">0</span><span class="plus" id="plus"></span></span>
+  </header>
+  <div id="notice"></div>
+  <main class="screen" id="screen"></main>
+  <div id="dev"></div>
+</div>
+<script>
+/*__JS__*/
+</script>
+</body>
+</html>
